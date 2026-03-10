@@ -1,0 +1,59 @@
+{
+  "agent_name": "SuperNiceCompany Support",
+  "tools": [
+    {
+      "name": "update_customer_budget_billing_plan",
+      "label": "Monthly Budget (EUR)",
+      "type": "number",
+      "description": "Updates the customer's billing plan"
+    },
+    {
+      "name": "update_customer_contact_info",
+      "label": "Customer Email",
+      "type": "text",
+      "description": "Updates the customer's contact email address"
+    },
+    {
+      "name": "update_customer_phone_number",
+      "label": "Customer Phone Number",
+      "type": "text",
+      "description": "Updates the customer's primary phone number"
+    },
+    {
+      "name": "update_customer_postal_address",
+      "label": "Postal Address",
+      "type": "text",
+      "description": "Updates the postal address used for correspondence"
+    },
+    {
+      "name": "set_customer_credit_limit",
+      "label": "Credit Limit (EUR)",
+      "type": "number",
+      "description": "Changes the customer's authorized credit limit"
+    },
+    {
+      "name": "schedule_billing_date_change",
+      "label": "Billing Day",
+      "type": "number",
+      "description": "Sets a new monthly billing or charge day"
+    },
+    {
+      "name": "update_invoice_recipient_name",
+      "label": "Invoice Recipient Name",
+      "type": "text",
+      "description": "Updates the name displayed on invoices"
+    },
+    {
+      "name": "pause_customer_subscription_days",
+      "label": "Pause Duration (days)",
+      "type": "number",
+      "description": "Temporarily pauses the subscription for a given number of days"
+    },
+    {
+      "name": "update_vat_number",
+      "label": "VAT Number",
+      "type": "text",
+      "description": "Updates the customer's VAT or tax identification number"
+    }
+  ]
+}
